@@ -1,0 +1,447 @@
+{
+  "scrape_time": "2026-02-24T23:29:10.962370",
+  "last_updated": "Latest updated 20th February 2026",
+  "pitches": [
+    {
+      "name": "ALBERT COLLEGE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "ALFIE BYRNE ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "ARDMORE DRIVE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "ASHINGTON PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BALCURRIS",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BEECH HILL, DONNYBROOK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BELCAMP/PRIORSWOOD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BENMADIGAN ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BLUEBELL ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BRICKFIELDS",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BUNTING ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "BUSHY PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "CALIFORNIA HILLS",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "CHERRY ORCHARD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "CLONTURK PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "COOLGREENA CLOSE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "COULTRY PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "CROYDEN GARDENS",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "DARNDALE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "DARTRY",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "DOLPHIN ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "DONAGHMEDE PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "DONNYCARNEY",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "DUNDANIEL OPEN SPACE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "EDENMORE CRESCENT",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "ELLENFIELD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "FAIRVIEW",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "FARNHAM CRESCENT",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "FR. COLLINS PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "GALTYMORE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "HERBERT",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "IRISHTOWN",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "JOHN PAUL PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "JOHNSTOWN",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "KILDONAN ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "KILMORE DRIVE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "LE FANU",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "LEIN ROAD OPEN SPACE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "MC AULEY",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "MARINO",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "MARKIEVICZ",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "MARTIN SAVAGE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "MELLOWES",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "MILLBROOK/STREAMVILLE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "MOUNT OLIVE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "NORTHWAY PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "OSCAR TRAYNOR",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "PLUNKETT AVENUE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "POPPINTREE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "POPPINTREE NORTH IKEA",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "RINGSEND PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "ROCKFIELD PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "ROSEGLEN AVE.",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "SEAN MOORE PARK",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "SPRINGDALE ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "ST. ANNE'S",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "STANNAWAY",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "SUNDRIVE",
+      "status_on": "ON",
+      "status_off": "",
+      "status": "ON",
+      "playable": true
+    },
+    {
+      "name": "THE RANCH INCHICORE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "TOLKA VALLEY",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "WALKINSTOWN",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "WILLIE PEARSE",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    },
+    {
+      "name": "WOODBINE ROAD",
+      "status_on": "",
+      "status_off": "OFF",
+      "status": "OFF",
+      "playable": false
+    }
+  ]
+}
