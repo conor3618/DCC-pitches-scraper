@@ -8,7 +8,7 @@ A Python project that scrapes the [DCC Pitch Playability page](https://www.dubli
 - Determines playability status from "Status On" / "Status Off" table columns
 - Exports complete structured data to `dcc_pitches.json`
 - GitHub Action runs automatically daily
-- `dcc_pitches.json` always up to date via GitHub Actions artifacts
+- `dcc_pitches.json` always up to date via GitHub Actions
 
 ## Scripts
 
