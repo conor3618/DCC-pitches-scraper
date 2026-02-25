@@ -1,43 +1,40 @@
-# Dublin City Council Pitch Scraper
+# Dublin & Fingal Pitches Scraper
 
-A Python project that scrapes the [DCC Pitch Playability page](https://www.dublincity.ie/residential/parks/dublin-city-parks/pitch-playability) to retrieve the latest playability status for all Dublin City Council pitches. Includes a scheduled GitHub Action that automatically updates data daily.
+A Python project that scrapes **Dublin City Council (DCC)** and **Fingal County Council (FCC)** pitch playability pages to retrieve the latest status for all playing pitches. Includes a scheduled GitHub Action that automatically updates data daily.
 
 ## Features
-- Extracts Dublin City Council pitches and playing fields
-- Captures "Latest updated" date directly from the webpage
+- Extracts pitches from DCC and Fingal County Council sources
+- Captures "Latest updated" dates directly from webpages
 - Determines playability status from "Status On" / "Status Off" table columns
-- Exports complete structured data to `dcc_pitches.json`
-- GitHub Action runs automatically daily
-- `dcc_pitches.json` always up to date via GitHub Actions
+- Exports structured data to `data/dcc_pitches.json` and `data/fingal_pitches.json`
+- GitHub Action runs automatically daily at 8AM UTC
+- Data files always up to date via automated commits
 
 ## Scripts
 
-| Script | Description |
-|--------|-------------|
-| `pitch_scraper.py` | Main scraper - fetches all pitches and generates JSON |
+| Script | Description | Output |
+|--------|-------------|---------|
+| `pitch_scraper_dcc.py` | DCC pitches scraper | `data/dcc_pitches.json` |
+| `pitch_scraper_fingal.py` | Fingal pitches scraper | `data/fingal_pitches.json` |
 
 ## Usage
 
 ### Local run
 
-    python pitch_scraper.py
+```bash
 
-### Example output
+python pitch_scraper_dcc.py    # DCC only
+python pitch_scraper_fingal.py # Fingal only
 
-```
-DUBLIN CITY COUNCIL PITCHES:
-Last updated: Latest updated 20th February 2026
 
-PLAYABLE: 1/63
-
-SUNDRIVE : Playable
-ALBERT COLLEGE : Unplayable
-ALFIE BYRNE ROAD : Unplayable
 ...
-Data exported to dcc_pitches.json
+Data exported to data/dcc_pitches.json
+
 ```
 
 ## JSON Structure
+Both files follow identical structure:
+
 ```json
 {
   "scrape_time": "2026-02-24T23:12:00",
@@ -49,31 +46,35 @@ Data exported to dcc_pitches.json
       "status_off": "",
       "status": "ON",
       "playable": true
-    },
-    {
-      "name": "ALBERT COLLEGE",
-      "status_on": "",
-      "status_off": "OFF",
-      "status": "OFF",
-      "playable": false
     }
   ]
 }
 ```
 
+## Data Folder
+```
+data/
+├── dcc_pitches.json      # Dublin City Council pitches
+└── fingal_pitches.json   # Fingal County Council pitches
+```
+
 ## How It Works
-1. Fetches HTML from DCC pitch playability page
-2. Extracts "Latest updated" date from page `<p><strong>` element
-3. Parses pitches table, checking "Status On" column for "ON" keyword
-4. Builds structured JSON with timestamps and exports to file
-5. Prints clean summary to console
+1. Scrapes DCC pitch playability page for Dublin pitches
+2. Scrapes Fingal County Council pitch playability page
+3. Extracts "Latest updated" dates from each source
+4. Parses status tables to determine playability
+5. Exports structured JSON to `data/` folder
+6. GitHub Action commits changes daily
 
 ## GitHub Action
-A scheduled action runs `pitch_scraper.py` daily and updates `dcc_pitches.json` as an accordingly.
+Scheduled workflow runs both scrapers daily and commits updated JSON files to `data/` folder. Success confirmed by commit message in repository history.
 
-## Data Source
-[Dublin City Council](https://www.dublincity.ie)  
-Official pitch playability data. DCC neither endorses this project nor guarantees data accuracy.
+## Data Sources
+- [Dublin City Council Pitch Playability](https://www.dublincity.ie/residential/parks/dublin-city-parks/pitch-playability)
+- [Fingal County Council Pitches](https://www.fingal.ie/Pitches)
+
+Official council data. Neither council endorses this project nor guarantees data accuracy.
 
 ### License
-[Licensed under Unlicense](https://unlicense.org/)  
+[Licensed under Unlicense](https://unlicense.org/)
+```
