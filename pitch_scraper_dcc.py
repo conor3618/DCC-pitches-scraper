@@ -7,6 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
+import os
 
 
 DCC_URL = "https://www.dublincity.ie/residential/parks/dublin-city-parks/pitch-playability"
@@ -48,13 +49,14 @@ def scrape_dcc_pitches():
     
     scrape_time = datetime.now().isoformat()
     
-    # Export to JSON
+    # Export to data/dcc_pitches.json
+    os.makedirs("data", exist_ok=True)
     data = {
         "scrape_time": scrape_time,
         "last_updated": last_updated,
         "pitches": pitches
     }
-    with open("dcc_pitches.json", "w") as f:
+    with open("data/dcc_pitches.json", "w") as f:
         json.dump(data, f, indent=2)
     
     return pitches, last_updated
@@ -74,4 +76,4 @@ def print_dcc_statuses(pitches, last_updated):
 if __name__ == "__main__":
     pitches, last_updated = scrape_dcc_pitches()
     print_dcc_statuses(pitches, last_updated)
-    print("\nData exported to dcc_pitches.json")
+    print("\nData exported to data/dcc_pitches.json")
