@@ -1,9 +1,12 @@
-name: Scrape DCC Pitches
+name: Scrape DCC & Fingal Pitches
 
 on:
   schedule:
     - cron: '0 8 * * *'  # Daily 8AM UTC
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -11,36 +14,23 @@ jobs:
     
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
-      
+      uses: actions/checkout@v5
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-        
-    - name: Install dependencies & run scraper
+
+    - name: Install dependencies & run scrapers
       run: |
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4 lxml
-        python pitch_scraper.py
+        python pitch_scraper_dcc.py
+        python pitch_scraper_fingal.py
         
-    - name: Show preview
-      run: |
-        echo "## Latest Results" >> $GITHUB_STEP_SUMMARY
-        echo '```json' >> $GITHUB_STEP_SUMMARY
-        head -50 dcc_pitches.json >> $GITHUB_STEP_SUMMARY
-        echo '```' >> $GITHUB_STEP_SUMMARY
-        
-    - name: Commit JSON
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "github-actions[bot]"
-        git add dcc_pitches.json
-        timestamp=$(date -u +'%Y-%m-%d %H:%M UTC')
-        playable=$(jq '[.pitches[] | select(.playable)] | length' dcc_pitches.json)
-        total=$(jq '.pitches | length' dcc_pitches.json)
-        git commit -m "Update pitches JSON: ${timestamp} (PLAYABLE: ${playable}/${total})" || exit 0
-        git push
+    - name: Commit data folder
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: 'data/'
+        message: |
+          Update pitches data: ${{ github.run_id }} - Scrapers completed successfully
