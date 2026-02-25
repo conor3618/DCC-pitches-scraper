@@ -1,4 +1,4 @@
-# Dublin & Fingal Pitches Scraper
+update readme "# Dublin & Fingal Pitches Scraper
 
 A Python project that scrapes **Dublin City Council (DCC)** and **Fingal County Council (FCC)** pitch playability pages to retrieve the latest status for all playing pitches. Includes a scheduled GitHub Action that automatically updates data daily.
 
@@ -77,3 +77,77 @@ Official council data. Neither council endorses this project nor guarantees data
 
 ### License
 [Licensed under Unlicense](https://unlicense.org/)
+"
+
+```markdown
+# Dublin Pitches Tracker (DCC + Fingal + DLR)
+
+A Python project that scrapes **Dublin City Council (DCC)**, **Fingal County Council (FCC)**, and **Dún Laoghaire-Rathdown (DLR)** pitch playability pages. Includes scheduled GitHub Action for daily automated updates.
+
+## Features
+- DCC: HTML table parsing (63 pitches)
+- Fingal: HTML scraping
+- **DLR: Map popup extraction (25 pitches + Lat/Lng coordinates)**
+- Gaelic UTF-8 names (Páirc Uí Bhríain ✓)
+- Daily GitHub Action at 8AM UTC
+- Unified JSON structure across councils
+
+## Scripts
+
+| Script | Council | Output |
+|--------|---------|--------|
+| `pitch_scraper_dcc.py` | DCC | `data/dcc_pitches.json` |
+| `pitch_scraper_fingal.py` | Fingal | `data/fingal_pitches.json` |
+| `pitch_scraper_dlr.py` | **DLR** | **`data/dlr_pitches.json`** |
+
+## Usage
+
+### Local run
+
+python pitch_scraper_dcc.py    # DCC only
+```
+
+## JSON Structure
+
+**DLR**:
+```json
+{
+  "scrape_time": "2026-02-25T08:00:00Z",
+  "council": "DLR",
+  "source": "map-popups",
+  "pitches": [{
+    "name": "Páirc Uí Bhríain",
+    "status": "playable",
+    "playable": true,
+    "coordinates": {"lat": 53.279, "lng": -6.222}
+  }]
+}
+```
+
+## Data Folder
+```
+data/
+├── dcc_pitches.json      # Dublin City Council
+├── fingal_pitches.json   # Fingal County Council
+└── dlr_pitches.json      # DLR County Council
+```
+
+## How It Works
+1. DCC: Parses HTML status tables
+2. Fingal: Extracts pitch playability from HTML  
+3. **DLR: Scrapes Google Maps popups** (`map-popup-rhs-name` + coords)
+4. Exports unified JSON to `data/` folder
+5. GitHub Action commits daily changes
+
+## GitHub Action
+Daily 8AM UTC workflow runs all scrapers → commits to `data/`
+
+## Data Sources
+- [DCC Pitch Playability](https://www.dublincity.ie/residential/parks/dublin-city-parks/pitch-playability)
+- [Fingal Pitches](https://www.fingal.ie/Pitches)  
+- [DLR Pitches Map](https://www.dlrcoco.ie/pitches)
+
+Official council data. Councils neither endorse nor guarantee accuracy.
+
+### License
+[Unlicense](https://unlicense.org/)
