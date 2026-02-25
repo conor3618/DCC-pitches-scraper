@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Fingal County Council Pitch Playability Scraper
 """
@@ -6,12 +5,10 @@ Fingal County Council Pitch Playability Scraper
 import requests
 from bs4 import BeautifulSoup
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 
-
 FINGAL_URL = "https://www.fingal.ie/playability-pitches"
-
 
 def scrape_fingal_pitches():
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -38,42 +35,38 @@ def scrape_fingal_pitches():
             if status_on == name:
                 status_on = ""
 
+            status = status_on if status_on.strip() else status_off
             playable = status_on.strip() != "" and status_off.strip() == ""
 
             pitches.append({
                 "name": name,
-                "status_on": status_on,
-                "status_off": status_off,
-                "playable": playable
+                "status": status,
+                "playable": playable,
+                "Council": "FCC"
             })
 
-    scrape_time = datetime.now().isoformat()
-
-    # Export to data/fingal_pitches.json
-    os.makedirs("data", exist_ok=True)
     data = {
-        "scrape_time": scrape_time,
-        "report_date": report_date,
+        "scrape_time": datetime.now(timezone.utc).isoformat(),
+        "council": "FCC",
         "pitches": pitches
     }
-    with open("data/fingal_pitches.json", "w") as f:
-        json.dump(data, f, indent=2)
+    
+    os.makedirs("data", exist_ok=True)
+    with open("data/fingal_pitches.json", "w", encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
-    return pitches, report_date
+    return pitches
 
-
-def print_fingal_statuses(pitches, report_date):
-    print("FINGAL COUNTY COUNCIL PITCHES:")
-    print(f"Report: {report_date}\n")
+def print_fingal_statuses(pitches):
     playable = sum(1 for p in pitches if p["playable"])
+    print("FINGAL COUNTY COUNCIL PITCHES:")
     print(f"PLAYABLE: {playable}/{len(pitches)}\n")
-
+    
     for p in pitches:
         status = "Playable" if p["playable"] else "Unplayable"
         print(f"{p['name']} : {status}")
 
-
 if __name__ == "__main__":
-    pitches, report_date = scrape_fingal_pitches()
-    print_fingal_statuses(pitches, report_date)
-    print("\nData exported to data/fingal_pitches.json")
+    pitches = scrape_fingal_pitches()
+    print_fingal_statuses(pitches)
+    print("\n✓ Data exported to data/fingal_pitches.json")
