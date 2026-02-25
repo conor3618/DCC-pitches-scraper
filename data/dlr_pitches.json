@@ -1,161 +1,156 @@
 {
-  "scrape_time": "2026-02-25T11:33:41.260600+00:00",
+  "scrape_time": "2026-02-25T12:44:47.448981+00:00",
   "council": "DLR",
-  "source": "map-popups",
   "pitches": [
     {
       "name": "Ticknick",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Stepaside Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Cabinteely Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Balally Hill Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Meadowvale Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Soldiers & Sailors Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Rockfield Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Shanganagh Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Loughlinstown Wood Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Holly Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Fernhill Pitches - Junior Pitch (only) - Soccer & Gaelic",
       "status": "playable",
       "playable": true,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Kilbogget Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Hudson Road Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Hyde Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Thomastown Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Leopardstown Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Bearna Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Moreen Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Páirc Uí Bhríain",
       "status": "playable",
       "playable": true,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Marlay Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Broadford Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Meadowbrook Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Deer Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Loreto Park Pitches",
       "status": "not playable",
       "playable": false,
-      "coordinates": null
+      "Council": "DLR"
     },
     {
       "name": "Rosemount Park Pitches",
       "status": "playable",
       "playable": true,
-      "coordinates": null
+      "Council": "DLR"
     }
-  ],
-  "summary": {
-    "total": 25,
-    "playable": 3
-  }
+  ]
 }

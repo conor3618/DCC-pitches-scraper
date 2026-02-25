@@ -1,447 +1,384 @@
 {
-  "scrape_time": "2026-02-25T11:33:38.114342",
-  "last_updated": "Latest updated 20th February 2026",
+  "scrape_time": "2026-02-25T12:44:44.538523+00:00",
+  "council": "DCC",
   "pitches": [
     {
       "name": "ALBERT COLLEGE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "ALFIE BYRNE ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "ARDMORE DRIVE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "ASHINGTON PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BALCURRIS",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BEECH HILL, DONNYBROOK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BELCAMP/PRIORSWOOD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BENMADIGAN ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BLUEBELL ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BRICKFIELDS",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BUNTING ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "BUSHY PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "CALIFORNIA HILLS",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "CHERRY ORCHARD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "CLONTURK PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "COOLGREENA CLOSE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "COULTRY PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "CROYDEN GARDENS",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "DARNDALE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "DARTRY",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "DOLPHIN ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "DONAGHMEDE PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "DONNYCARNEY",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "DUNDANIEL OPEN SPACE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "EDENMORE CRESCENT",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "ELLENFIELD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "FAIRVIEW",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "FARNHAM CRESCENT",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "FR. COLLINS PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "GALTYMORE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "HERBERT",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "IRISHTOWN",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "JOHN PAUL PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "JOHNSTOWN",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "KILDONAN ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "KILMORE DRIVE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "LE FANU",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "LEIN ROAD OPEN SPACE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "MC AULEY",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "MARINO",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "MARKIEVICZ",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "MARTIN SAVAGE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "MELLOWES",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "MILLBROOK/STREAMVILLE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "MOUNT OLIVE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "NORTHWAY PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "OSCAR TRAYNOR",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "PLUNKETT AVENUE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "POPPINTREE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "POPPINTREE NORTH IKEA",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "RINGSEND PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "ROCKFIELD PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "ROSEGLEN AVE.",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "SEAN MOORE PARK",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "SPRINGDALE ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "ST. ANNE'S",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "STANNAWAY",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "SUNDRIVE",
-      "status_on": "ON",
-      "status_off": "",
       "status": "ON",
-      "playable": true
+      "playable": true,
+      "Council": "DCC"
     },
     {
       "name": "THE RANCH INCHICORE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "TOLKA VALLEY",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "WALKINSTOWN",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "WILLIE PEARSE",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     },
     {
       "name": "WOODBINE ROAD",
-      "status_on": "",
-      "status_off": "OFF",
       "status": "OFF",
-      "playable": false
+      "playable": false,
+      "Council": "DCC"
     }
   ]
 }

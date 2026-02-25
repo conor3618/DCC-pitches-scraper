@@ -1,312 +1,312 @@
 {
-  "scrape_time": "2026-02-25T11:33:39.765908",
-  "report_date": "Playability of Pitches Report Friday 20th February To Friday 27th February 2026",
+  "scrape_time": "2026-02-25T12:44:46.033319+00:00",
+  "council": "FCC",
   "pitches": [
     {
       "name": "Beechpark D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Coolmine Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Corduff Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Damastown Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Hartstown Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Hazelbury Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Ladyswell Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Lanesborough Park Finglas",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Latchford Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
-      "name": "Littlepace/Hunters\u2019 Run D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "name": "Littlepace/Hunters’ Run D15",
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Mick Walsh Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Mountview Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Porterstown Park D15",
-      "status_on": "",
-      "status_off": "",
-      "playable": false
+      "status": "",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Porterstown Park D15",
-      "status_on": "",
-      "status_off": "",
-      "playable": false
+      "status": "",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "St. Catherines Park Lucan",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Tyrrelstown Park D15",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Alden Park Baldoyle",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Broomfield Malahide",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
-      "name": "Grace O\u2019Malley Park Howth",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "name": "Grace O’Malley Park Howth",
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Kettles Park Malahide",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Malahide Demesne",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Portmarnock SLC",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Racecourse Park Baldoyle",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Robswall Malahide",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
-      "name": "Robswall (Paddy\u2019s Hill) Park",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "name": "Robswall (Paddy’s Hill) Park",
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Seabury Malahide",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Seagrange Park Malahide",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Waterside Malahide",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Balheary Park (Estuary) Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Balheary Park (Broadmeadows) Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Balheary (Reservoir) Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Holywell Park Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
-      "name": "Miller\u2019s Glen Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "name": "Miller’s Glen Swords",
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Newbridge Demesne",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "New Road Donabate",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Ridgewood (Rathingle) Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Ridgewood Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Rivermeade St Margarets",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Rivervalley Swords",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Swords Manor",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Ballast Pit Skerries",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Bremore Regional Park Balbriggan",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Dun Emer & Chapel Farm Lusk",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Glebe Park Balrothery",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Hayestown Open Space Rush",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
-      "name": "Kelly\u2019s Bay & Mourne Park Skerries",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "name": "Kelly’s Bay & Mourne Park Skerries",
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Orlynn Park & The Forge Lusk",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Rathmore Road Lusk",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
-      "name": "St. Catherine\u2019s Park Rush",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "name": "St. Catherine’s Park Rush",
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Town Park Skerries",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     },
     {
       "name": "Town Park & Pump Lane & Craobhinn Park Balbriggan",
-      "status_on": "",
-      "status_off": "OFF",
-      "playable": false
+      "status": "OFF",
+      "playable": false,
+      "Council": "FCC"
     }
   ]
 }
