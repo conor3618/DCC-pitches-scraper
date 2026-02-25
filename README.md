@@ -7,7 +7,6 @@ Includes a scheduled **GitHub Action** that automatically updates data every day
 - **DCC:** Parses HTML tables (63 pitches)
 - **Fingal:** Extracts pitch data from webpage tables
 - **DLR:** Scrapes map popups (25 pitches with latitude/longitude)
-- Handles **UTF‑8 Gaelic names** correctly (e.g., *Páirc Uí Bhríain*)
 - Unified JSON structure across all councils
 - Automated updates committed daily via GitHub Action
 
