@@ -1,51 +1,50 @@
-# Dublin Pitches Tracker (DCC, Fingal, DLR)
+# Dublin Pitches Tracker (DCC, FCC, DLR)
 
 A Python project that scrapes **Dublin City Council (DCC)**, **Fingal County Council (FCC)**, and **Dún Laoghaire-Rathdown (DLR)** pitch playability pages.  
-Includes a scheduled **GitHub Action** that automatically updates data every day at **8 AM UTC**.
+Includes a scheduled **GitHub Action** that automatically updates data every day at **8 AM UTC**.
 
 ## Features
-- **DCC:** Parses HTML tables (63 pitches)
-- **Fingal:** Extracts pitch data from webpage tables
-- **DLR:** Scrapes map popups (25 pitches with latitude/longitude)
-- Unified JSON structure across all councils
-- Automated updates committed daily via GitHub Action
+- **DCC:** Parses HTML tables
+- **FCC:** Extracts pitch data from webpage tables  
+- **DLR:** Scrapes map popups
+- **Unified JSON structure** across all councils
+- Automated daily updates via GitHub Action
 
 ## Scripts
 
 | Script | Council | Output |
-|--------|----------|--------|
-| `pitch_scraper_dcc.py` | Dublin City Council | `data/dcc_pitches.json` |
-| `pitch_scraper_fingal.py` | Fingal County Council | `data/fingal_pitches.json` |
-| `pitch_scraper_dlr.py` | Dún Laoghaire‑Rathdown County Council | `data/dlr_pitches.json` |
+|--------|---------|--------|
+| `pitch_scraper_dcc.py` | DCC | `data/dcc_pitches.json` |
+| `pitch_scraper_fingal.py` | FCC | `data/fingal_pitches.json` |
+| `pitch_scraper_dlr.py` | DLR | `data/dlr_pitches.json` |
 
 ## Usage
 
 ### Run Locally
 ```bash
 python pitch_scraper_dcc.py     # DCC only
-python pitch_scraper_fingal.py  # Fingal only
+python pitch_scraper_fingal.py  # FCC only  
 python pitch_scraper_dlr.py     # DLR only
 
 # Example output:
-# Data exported to data/dcc_pitches.json
+# Exported 42/63 playable DCC pitches
+# ✓ Data exported to data/dcc_pitches.json
 ```
 
 ## JSON Structure
 
-All JSON outputs follow a shared schema.
+**Unified format across all councils:**
 
-**Example (DLR):**
 ```json
 {
   "scrape_time": "2026-02-25T08:00:00Z",
-  "council": "DLR",
-  "source": "map-popups",
+  "council": "DCC",
   "pitches": [
     {
-      "name": "Páirc Uí Bhríain",
-      "status": "playable",
+      "name": "SUNDRIVE",
+      "status": "ON",
       "playable": true,
-      "coordinates": {"lat": 53.279, "lng": -6.222}
+      "Council": "DCC"
     }
   ]
 }
@@ -54,32 +53,30 @@ All JSON outputs follow a shared schema.
 ## Data Folder
 ```
 data/
-├── dcc_pitches.json      # Dublin City Council
-├── fingal_pitches.json   # Fingal County Council
-└── dlr_pitches.json      # DLR County Council
+├── dcc_pitches.json      # Dublin City Council (DCC)
+├── fingal_pitches.json   # Fingal County Council (FCC)
+└── dlr_pitches.json      # Dún Laoghaire-Rathdown (DLR)
 ```
 
 ## How It Works
-1. **DCC:** Parses HTML pitch status tables  
-2. **Fingal:** Extracts playability data from webpage  
-3. **DLR:** Scrapes Google Maps popup content (`map-popup-rhs-name` + coordinates)  
-4. Collects "last updated" metadata where available  
-5. Exports structured JSON files to `data/`  
-6. GitHub Action runs daily and commits updated data to the repository
+1. **DCC:** Parses HTML status tables (`Status On`/`Status Off`)
+2. **FCC:** Extracts from main table (Park/ON/OFF columns)  
+3. **DLR:** Scrapes map popups (`map-popup-rhs-name` + status)
+4. Exports **identical JSON structure** to `data/` folder
+5. GitHub Action runs daily → commits updated files
 
 ## GitHub Action
-The daily scheduled workflow:
-- Runs all scrapers at 8 AM UTC  
-- Updates JSON files in the `data/` folder  
-- Creates a new commit with the latest data snapshot
+Daily workflow at **8 AM UTC**:
+- Runs all three scrapers
+- Updates JSON files in `data/`
+- Commits fresh data snapshot
 
 ## Data Sources
-- [Dublin City Council Pitch Playability](https://www.dublincity.ie/residential/parks/dublin-city-parks/pitch-playability)  
-- [Fingal County Council Pitches](https://www.fingal.ie/Pitches)  
+- [DCC Pitch Playability](https://www.dublincity.ie/residential/parks/dublin-city-parks/pitch-playability)
+- [FCC Playability Pitches](https://www.fingal.ie/playability-pitches)
 - [DLR Pitches Map](https://www.dlrcoco.ie/pitches)
 
-These datasets originate from official council sources.  
-No council endorses this project, and data accuracy cannot be guaranteed.
+Official council data. No endorsement or accuracy guarantees.
 
 ### License
-[Licensed under the Unlicense](https://unlicense.org/)
+[Unlicense](https://unlicense.org/)
