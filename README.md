@@ -1,4 +1,4 @@
-# Dublin Pitches Tracker (DCC, FCC, DLR)
+# Dublin Pitches Scraper (DCC, FCC, DLR)
 
 A Python project that scrapes **Dublin City Council (DCC)**, **Fingal County Council (FCC)**, and **Dún Laoghaire-Rathdown (DLR)** pitch playability pages.  
 Includes a scheduled **GitHub Action** that automatically updates data every day at **8 AM UTC**.
